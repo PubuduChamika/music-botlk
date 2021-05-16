@@ -1,7 +1,7 @@
 {
-  "name": "Music BotLK",
+  "name": "Music-BotLK",
   "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
-  "repository": "https://github.com/SudhanPlayz/Discord-MusicBot",
+  "repository": "https://github.com/PubuduChamika/music-botlk",
   "logo": "https://cdn.discordapp.com/app-icons/798924966556598304/50d1c8a32a5751b4089c0e9c9a819974.png?size=256",
   "keywords": ["node", "discord", "youtube","music","bot"],
   "image": "heroku/nodejs",

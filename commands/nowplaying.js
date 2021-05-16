@@ -14,7 +14,7 @@ module.exports = {
     if (!serverQueue) return sendError("There is nothing playing in this server.", message.channel);
     let song = serverQueue.songs[0]
     let thing = new MessageEmbed()
-      .setAuthor("Now Playing", "https://raw.githubusercontent.com/PubuduChamika/files/main/Music.gif")
+      .setAuthor("Now Playing", "https://github.com/PubuduChamika/files/blob/main/Music.gif?raw=true")
       .setThumbnail(song.img)
       .setColor("BLUE")
       .addField("Name", song.title, true)

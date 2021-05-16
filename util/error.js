@@ -8,7 +8,7 @@ const { MessageEmbed } = require("discord.js")
 module.exports = async (text, channel) => {
     let embed = new MessageEmbed()
     .setColor("RED")
-    .setDescription(text)
+    .setDescription("Leaving the voice channel because I think there are no songs in the queue. If you like the bot stay 24/7 in voice channel run `.afk` **-----Thank you for using me!**")
     .setFooter("Something went wrong :(")
     await channel.send(embed)
 }

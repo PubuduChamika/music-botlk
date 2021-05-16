@@ -13,14 +13,14 @@ module.exports = {
 
         client.commands.forEach(cmd => {
             let cmdinfo = cmd.info
-            allcmds+="`"+client.config.prefix+cmdinfo.name+" "+cmdinfo.usage+"` ~ "+cmdinfo.description+"\n"
+            allcmds+="``"+client.config.prefix+cmdinfo.name+" "+cmdinfo.usage+"`` ~ "+cmdinfo.description+"\n"
         })
 
         let embed = new MessageEmbed()
-        .setAuthor("Commands of "+client.user.username, "https://raw.githubusercontent.com/PubuduChamika/files/main/Music.gif")
+        .setAuthor("Commands of "+client.user.username, "https://github.com/PubuduChamika/files/blob/main/Music.gif?raw=true")
         .setColor("BLUE")
         .setDescription(allcmds)
-        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | By Pubba#5527`)
+        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Handle by Pubba#5527`)
 
         if(!args[0])return message.channel.send(embed)
         else {

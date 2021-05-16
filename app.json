@@ -1,8 +1,8 @@
 {
   "name": "Music BotLK",
-  "description": "Music for Everyone... By Pubba...",
-  "repository": "https://github.com/PubuduChamika/music-botlk",
-  "logo": "https://cdn.discordapp.com/app-icons/798924966556598304/38d52f115d763ca72c75344dca048ced.png?size=256",
+  "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
+  "repository": "https://github.com/SudhanPlayz/Discord-MusicBot",
+  "logo": "https://cdn.discordapp.com/app-icons/798924966556598304/50d1c8a32a5751b4089c0e9c9a819974.png?size=256",
   "keywords": ["node", "discord", "youtube","music","bot"],
   "image": "heroku/nodejs",
   "buildpacks": [
@@ -21,11 +21,6 @@
     "PREFIX": {
       "description": "The prfix you want to use with the bot.",
       "value": "!"
-    },
-    "SOUNDCLOUD_CLIENT_ID": {
-      "description": "The client id of soundcloud.",
-      "value": "dmDh7QSlmGpzH9qQoH1YExYCGcyYeYYC",
-      "required": "false"
     }
   }  
 }
